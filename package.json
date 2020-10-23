@@ -1,0 +1,9 @@
+{
+  "name": "hangle-nickname-generator",
+  "version": "0.1.0-beta",
+  "description": "Simple hangle nickname generator.",
+  "main": "index.js",
+  "repository": "https://github.com/woojong92/hangle-nickname-generator.git",
+  "author": "woojong92 <woojong92@gmail.com>",
+  "license": "MIT"
+}
