@@ -1,17 +1,17 @@
-# hangle-nickname-generator
+# hangeul-nickname-generator
 
-Simple hangle nickname generator.
+Simple hangeul nickname generator.
 
 ## Install
 
 ```
-$ npm install hangle-nickname-generator
+$ npm install hangeul-nickname-generator
 ```
 
 ## API
 
 ```js
-const hng = require("hangle-nickname-generator");
+const hng = require("hangeul-nickname-generator");
 
 const nickname = hng();
 ```
