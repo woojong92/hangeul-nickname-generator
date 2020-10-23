@@ -1,6 +1,6 @@
 const words = require("./lib/words");
 
-function hangleNicknameGenerator() {
+function hangeulNicknameGenerator() {
   const adjective = words.Personality;
   const none = words.Noun;
   const adjectiveRandomNumber = Math.floor(Math.random() * adjective.length);
@@ -9,4 +9,4 @@ function hangleNicknameGenerator() {
   return adjective[adjectiveRandomNumber] + none[noneRandomNumber];
 }
 
-module.exports = hangleNicknameGenerator;
+module.exports = hangeulNicknameGenerator;
