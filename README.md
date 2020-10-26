@@ -1,6 +1,6 @@
 # hangeul-nickname-generator
 
-Simple hangeul nickname generator.
+Simple hangeul nickname generator. Simple Korean nickname generator.
 
 간단한 한글 닉네임 생성기를 만들어보았습니다. 추후 고도화할 예정입니다.
 
