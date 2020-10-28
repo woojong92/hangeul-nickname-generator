@@ -1,6 +1,6 @@
 {
   "name": "hangeul-nickname-generator",
-  "version": "0.1.0-beta",
+  "version": "0.1.1-beta",
   "type": "module",
   "description": "Simple hangeul nickname generator.",
   "main": "index.js",
