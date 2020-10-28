@@ -1,4 +1,4 @@
-const hng = require("hangeul-nickname-generator");
+import hng from "../index.js";
 
 const nickname = hng();
 console.log(nickname);

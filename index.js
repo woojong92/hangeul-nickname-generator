@@ -1,12 +1,9 @@
-const words = require("./lib/words");
+import prefix from "./lib/prifix.js";
+import words from "./lib/words.js";
 
-function hangeulNicknameGenerator() {
-  const adjective = words.Personality;
-  const none = words.Noun;
-  const adjectiveRandomNumber = Math.floor(Math.random() * adjective.length);
-  const noneRandomNumber = Math.floor(Math.random() * none.length);
+export default function hangeulNicknameGenerator() {
+  const prefixRandomNumber = Math.floor(Math.random() * prefix.length);
+  const wordsRandomNumber = Math.floor(Math.random() * words.length);
 
-  return adjective[adjectiveRandomNumber] + none[noneRandomNumber];
+  return prefix[prefixRandomNumber] + words[wordsRandomNumber];
 }
-
-module.exports = hangeulNicknameGenerator;
